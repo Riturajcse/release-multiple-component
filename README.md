@@ -12,7 +12,7 @@ docker images built by -
 ## Add Continuous Delivery pipelines to deploy to Amazon ECS
 * Fork this repo into your local repo
 * Follow instructions to [connect your Continuous Integration project to your Continuous Delivery pipelines](http://docs.shippable.com/tutorials/pipelines/connectingCiPipelines/).
-* Create an [integration](http://docs.shippable.com/integrations/containerServices/ecs/) for Amazon ECS and docker hub.
+* Create an [integration](http://docs.shippable.com/platform/integration/aws-keys/) for Amazon ECS and docker hub.
 * All pipeline config is in shippable.resources.yml and shippable.jobs.yml. Check these files and update config wherever the comment asks you to replace with your specific values
 * This demo uses a declarative job type called 'deploy' in Shippable to deploy to ECS.
 * This demo uses a declarative job type called 'release' to version the deployment to ECS.
